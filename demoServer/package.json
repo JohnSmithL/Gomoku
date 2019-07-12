@@ -1,0 +1,28 @@
+{
+  "name": "demoserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "ws": "^7.1.0"
+  },
+  "dependencies": {
+    "@types/mongodb": "^3.1.28",
+    "@types/uuid": "^3.4.5",
+    "@types/ws": "^6.0.1",
+    "md5-typescript": "^1.0.5",
+    "mongodb": "^3.2.7",
+    "ts-md5": "^1.2.4",
+    "uuid": "^3.3.2"
+  },
+  "keywords": [],
+  "description": ""
+}
